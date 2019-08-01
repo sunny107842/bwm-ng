@@ -4,7 +4,9 @@ const Rental = require('../models/rental');
 
 router.get('', function (req, res) {
     Rental.find({}, function (err, foundRentals) {
-        if (err)
+        if (err){
+            
+        }
             res.json[foundRentals]
     });
 
