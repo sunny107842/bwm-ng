@@ -9,7 +9,7 @@ import { RentalComponent } from './rental/rental.component';
 
 
 const routes: Routes = [
-  {path: '', component :RentalComponent}
+  {path: '',redirectTo: '/rentals',pathMatch:'full'}
 ]
 @NgModule({
   declarations: [
